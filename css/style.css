@@ -7,7 +7,7 @@ body {
 	height: 100vh;
 }
 .container {
-	height: 550px;
+	height: 570px;
 	width: 400px;
 	border-radius: 20px;
 	border: 5px solid lightyellow;
@@ -34,8 +34,26 @@ h2 {
 }
 .details {
 	display: flex;
+	justify-content: space-between;
 }
 .details > div {
 	width: 30%;
+	text-align: center;
+}
+.countryInp {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	background: rgb(30, 68, 150);
+	top: 45%;
+	color: white;
+	right: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1rem;
+}
+
+.countryInp > input {
 	text-align: center;
 }
